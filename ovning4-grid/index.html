@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Layout Övning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Grid Layout Container -->
+    <div class="page-container">
+        <header class="header">
+            <h1>CSS Grid Dashboard</h1>
+            <p>En kraftfull layout-metod för webben</p>
+        </header>
+
+        <nav class="sidebar">
+            <h3>Navigering</h3>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#gallery">Galleri</a></li>
+                <li><a href="#stats">Statistik</a></li>
+                <li><a href="#settings">Inställningar</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <section class="dashboard" id="dashboard">
+                <h2>Dashboard Översikt</h2>
+                
+                <!-- Stats Grid -->
+                <div class="stats-grid">
+                    <div class="stat-card stat-primary">
+                        <h3>150+</h3>
+                        <p>Användare</p>
+                    </div>
+                    <div class="stat-card stat-success">
+                        <h3>89%</h3>
+                        <p>Tillväxt</p>
+                    </div>
+                    <div class="stat-card stat-warning">
+                        <h3>24/7</h3>
+                        <p>Support</p>
+                    </div>
+                    <div class="stat-card stat-info">
+                        <h3>100+</h3>
+                        <p>Projekt</p>
+                    </div>
+                </div>
+
+                <!-- Content Grid -->
+                <div class="content-grid">
+                    <div class="content-box box-large">
+                        <h3>Huvudinnehåll</h3>
+                        <p>Detta är ett större innehållsområde som sträcker sig över flera kolumner i grid-layouten. CSS Grid gör det enkelt att skapa komplexa layouts.</p>
+                        <p>Grid är perfekt för responsiva dashboards och komplexa sidlayouter.</p>
+                    </div>
+                    <div class="content-box">
+                        <h3>Info 1</h3>
+                        <p>Ett mindre informationsområde.</p>
+                    </div>
+                    <div class="content-box">
+                        <h3>Info 2</h3>
+                        <p>Ytterligare information här.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Photo Gallery med Grid -->
+            <section class="gallery-section" id="gallery">
+                <h2>Bildgalleri</h2>
+                <div class="photo-gallery">
+                    <div class="photo-item photo-tall">
+                        <img src="https://via.placeholder.com/400x600/3498db/ffffff?text=Tall" alt="Hög bild">
+                    </div>
+                    <div class="photo-item">
+                        <img src="https://via.placeholder.com/400x300/2ecc71/ffffff?text=Bild+2" alt="Bild 2">
+                    </div>
+                    <div class="photo-item">
+                        <img src="https://via.placeholder.com/400x300/e74c3c/ffffff?text=Bild+3" alt="Bild 3">
+                    </div>
+                    <div class="photo-item photo-wide">
+                        <img src="https://via.placeholder.com/800x300/f39c12/ffffff?text=Wide" alt="Bred bild">
+                    </div>
+                    <div class="photo-item">
+                        <img src="https://via.placeholder.com/400x300/9b59b6/ffffff?text=Bild+5" alt="Bild 5">
+                    </div>
+                    <div class="photo-item">
+                        <img src="https://via.placeholder.com/400x300/1abc9c/ffffff?text=Bild+6" alt="Bild 6">
+                    </div>
+                    <div class="photo-item">
+                        <img src="https://via.placeholder.com/400x300/34495e/ffffff?text=Bild+7" alt="Bild 7">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside class="widgets">
+            <h3>Widgets</h3>
+            <div class="widget">
+                <h4>Senaste aktivitet</h4>
+                <p>Användare X loggade in</p>
+                <small>För 5 minuter sedan</small>
+            </div>
+            <div class="widget">
+                <h4>Notifikationer</h4>
+                <p>3 nya meddelanden</p>
+                <small>Idag kl 14:30</small>
+            </div>
+            <div class="widget">
+                <h4>Status</h4>
+                <p>Alla system fungerar</p>
+                <small>✓ Online</small>
+            </div>
+        </aside>
+
+        <footer class="footer">
+            <p>&copy; 2024 CSS Grid Demo | Skapad med CSS Grid Layout</p>
+        </footer>
+    </div>
+</body>
+</html>

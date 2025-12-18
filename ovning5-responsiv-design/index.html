@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En responsiv webbsida byggd med mobile-first approach">
+    <title>Responsiv Design Övning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Skip to content för tillgänglighet -->
+    <a href="#main-content" class="skip-link">Hoppa till huvudinnehåll</a>
+
+    <!-- Responsiv Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">ResponsivSite</div>
+            
+            <!-- Hamburger Menu Button -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <!-- Navigation Menu -->
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home">Hem</a></li>
+                <li><a href="#services">Tjänster</a></li>
+                <li><a href="#about">Om Oss</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Responsiv Webbutveckling</h1>
+            <p class="hero-text">Designad för alla enheter - från mobil till desktop</p>
+            <button class="cta-button">Kom igång</button>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <h2>Våra Tjänster</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">📱</div>
+                        <h3>Mobile-First Design</h3>
+                        <p>Vi börjar alltid med mobil design för att säkerställa bästa användarupplevelse.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💻</div>
+                        <h3>Desktop Optimering</h3>
+                        <p>Fullständig anpassning för större skärmar och kraftfulla arbetsstationer.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📊</div>
+                        <h3>Performance</h3>
+                        <p>Snabba laddningstider och optimerad prestanda på alla enheter.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">♿</div>
+                        <h3>Tillgänglighet</h3>
+                        <p>WCAG-kompatibla lösningar för inkluderande webbupplevelser.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Om Responsiv Design</h2>
+                        <p>Responsiv webbutveckling handlar om att skapa webbsidor som anpassar sig efter användarens enhet och skärmstorlek.</p>
+                        <p>Med media queries, flexibla grids och responsiva bilder kan vi skapa en sömlös upplevelse oavsett om användaren besöker din webbplats från en smartphone, surfplatta eller desktop-dator.</p>
+                        <ul class="feature-list">
+                            <li>✓ Mobile-first approach</li>
+                            <li>✓ Flexibla layouts</li>
+                            <li>✓ Optimerade bilder</li>
+                            <li>✓ Touch-friendly interface</li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/600x400/667eea/ffffff?text=Responsiv+Design" alt="Responsiv design illustration">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio/Gallery Section -->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="https://via.placeholder.com/400x300/3498db/ffffff?text=Projekt+1" alt="Projekt 1">
+                        <div class="portfolio-overlay">
+                            <h3>E-handel</h3>
+                            <p>Mobilanpassad webshop</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://via.placeholder.com/400x300/2ecc71/ffffff?text=Projekt+2" alt="Projekt 2">
+                        <div class="portfolio-overlay">
+                            <h3>Corporate</h3>
+                            <p>Företagswebbplats</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://via.placeholder.com/400x300/e74c3c/ffffff?text=Projekt+3" alt="Projekt 3">
+                        <div class="portfolio-overlay">
+                            <h3>Portfolio</h3>
+                            <p>Personlig portfolio</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="https://via.placeholder.com/400x300/f39c12/ffffff?text=Projekt+4" alt="Projekt 4">
+                        <div class="portfolio-overlay">
+                            <h3>Blog</h3>
+                            <p>Responsiv blogg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Kontakta Oss</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Hör av dig!</h3>
+                        <p>Vi hjälper dig gärna med ditt nästa projekt.</p>
+                        <div class="contact-details">
+                            <p>📧 info@responsivsite.se</p>
+                            <p>📱 070-123 45 67</p>
+                            <p>📍 Stockholm, Sverige</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Ditt namn" required>
+                        <input type="email" placeholder="Din e-post" required>
+                        <textarea placeholder="Ditt meddelande" rows="5" required></textarea>
+                        <button type="submit" class="submit-button">Skicka Meddelande</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ResponsivSite</h4>
+                    <p>Skapar responsiva webbupplevelser sedan 2024</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Snabblänkar</h4>
+                    <ul>
+                        <li><a href="#home">Hem</a></li>
+                        <li><a href="#services">Tjänster</a></li>
+                        <li><a href="#about">Om Oss</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Följ oss</h4>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ResponsivSite. Alla rättigheter förbehållna.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
